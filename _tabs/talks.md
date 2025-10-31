@@ -13,11 +13,7 @@ Technical talks and presentations on microservices, system design, and software 
   {% for talk in sorted_talks %}
 <div class="talk-item" style="margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border-color);">
   <h3>
-    {% if talk.url %}
-      <a href="{{ talk.url | relative_url }}">{{ talk.title }}</a>
-    {% else %}
-      {{ talk.title }}
-    {% endif %}
+    {{ talk.title }}
   </h3>
   
   {% if talk.event %}

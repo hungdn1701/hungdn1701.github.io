@@ -13,11 +13,7 @@ Academic papers, articles, and research work in software engineering and system 
   {% for pub in sorted_publications %}
 <div class="publication-item" style="margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border-color);">
   <h3>
-    {% if pub.url %}
-      <a href="{{ pub.url | relative_url }}">{{ pub.title }}</a>
-    {% else %}
-      {{ pub.title }}
-    {% endif %}
+    {{ pub.title }}
   </h3>
   
   {% if pub.authors %}

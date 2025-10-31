@@ -13,11 +13,7 @@ Here are some of my notable projects in backend development, microservices, and 
   {% for project in sorted_projects %}
 <div class="project-item" style="margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border-color);">
   <h3>
-    {% if project.url %}
-      <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-    {% else %}
-      {{ project.title }}
-    {% endif %}
+    {{ project.title }}
   </h3>
   
   {% if project.date %}

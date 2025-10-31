@@ -13,11 +13,7 @@ Courses and workshops I've taught in backend development, system design, and sof
   {% for course in sorted_teaching %}
 <div class="teaching-item" style="margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border-color);">
   <h3>
-    {% if course.url %}
-      <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
-    {% else %}
-      {{ course.title }}
-    {% endif %}
+    {{ course.title }}
   </h3>
   
   {% if course.institution %}
