@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/avatar.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -170,6 +170,21 @@ collections:
   tabs:
     output: true
     sort_by: order
+  projects:
+    output: true
+    sort_by: order
+  teaching:
+    output: true
+    sort_by: order
+  talks:
+    output: true
+    sort_by: order
+  publications:
+    output: true
+    sort_by: order
+  playbook:
+    output: true
+    sort_by: order
 
 defaults:
   - scope:
@@ -192,6 +207,31 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: playbook
+    values:
+      layout: page
 
 sass:
   style: compressed
@@ -220,7 +260,7 @@ jekyll-archives:
   enabled: [categories, tags]
   layouts:
     category: category
-    tag: tag
+    tag: tag  
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
