@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 ---
 
 ## 👨‍💻 Backend Engineer & System Architect | 🎓 Lecturer
