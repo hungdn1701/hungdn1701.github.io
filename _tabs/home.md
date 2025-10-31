@@ -1,5 +1,7 @@
 ---
-layout: home
+layout: page
+icon: fas fa-home
+order: 1
 ---
 
 ## 👨‍💻 Backend Engineer & System Architect | 🎓 Lecturer
@@ -54,7 +56,7 @@ public class MyPhilosophy {
 }
 ```
 
-### � Let's Connect
+### 📬 Let's Connect
 
 Interested in **microservices**, **system design**, or just want to chat about tech? Feel free to reach out!
 
