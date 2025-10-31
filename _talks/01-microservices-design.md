@@ -4,8 +4,6 @@ event: "Vietnam Tech Summit 2024"
 date: 2024-06-15
 location: "Ho Chi Minh City, Vietnam"
 description: "A deep dive into practical microservices design patterns, common pitfalls, and battle-tested solutions from real-world implementations."
-slides_url: ""
-video_url: ""
 ---
 
 ## Abstract

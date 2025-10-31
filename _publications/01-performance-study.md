@@ -4,9 +4,6 @@ authors: "Hung Dang, et al."
 venue: "International Conference on Software Engineering (ICSE)"
 date: 2024-03-20
 abstract: "A comprehensive performance study comparing Kafka, RabbitMQ, and NATS in microservices environments under various load patterns."
-paper_url: ""
-doi: ""
-code_url: ""
 ---
 
 ## Abstract

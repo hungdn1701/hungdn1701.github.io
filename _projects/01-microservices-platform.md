@@ -5,7 +5,6 @@ order: 1
 description: "A scalable e-commerce platform built with microservices architecture, featuring service mesh, event-driven communication, and distributed tracing."
 tech_stack: "Spring Boot, Kubernetes, Kafka, Redis, PostgreSQL, Docker"
 github_url: "https://github.com/hungdn1701/ecommerce-microservices"
-demo_url: ""
 ---
 
 ## Overview

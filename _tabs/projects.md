@@ -34,12 +34,12 @@ Here are some of my notable projects in backend development, microservices, and 
   
   {% if project.github_url or project.demo_url %}
   <p>
-    {% if project.github_url %}
+    {% if project.github_url and project.github_url != "" %}
       <a href="{{ project.github_url }}" target="_blank">
         <i class="fab fa-github"></i> GitHub
       </a>
     {% endif %}
-    {% if project.demo_url %}
+    {% if project.demo_url and project.demo_url != "" %}
       <a href="{{ project.demo_url }}" target="_blank" style="margin-left: 1rem;">
         <i class="fas fa-external-link-alt"></i> Demo
       </a>

@@ -40,17 +40,17 @@ Academic papers, articles, and research work in software engineering and system 
   
   {% if pub.paper_url or pub.doi or pub.code_url %}
   <p>
-    {% if pub.paper_url %}
+    {% if pub.paper_url and pub.paper_url != "" %}
       <a href="{{ pub.paper_url }}" target="_blank">
         <i class="fas fa-file-pdf"></i> Paper
       </a>
     {% endif %}
-    {% if pub.doi %}
+    {% if pub.doi and pub.doi != "" %}
       <a href="https://doi.org/{{ pub.doi }}" target="_blank" style="margin-left: 1rem;">
         <i class="fas fa-link"></i> DOI
       </a>
     {% endif %}
-    {% if pub.code_url %}
+    {% if pub.code_url and pub.code_url != "" %}
       <a href="{{ pub.code_url }}" target="_blank" style="margin-left: 1rem;">
         <i class="fab fa-github"></i> Code
       </a>

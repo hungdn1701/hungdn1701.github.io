@@ -39,12 +39,12 @@ Technical talks and presentations on microservices, system design, and software 
   
   {% if talk.slides_url or talk.video_url %}
   <p>
-    {% if talk.slides_url %}
+    {% if talk.slides_url and talk.slides_url != "" %}
       <a href="{{ talk.slides_url }}" target="_blank">
         <i class="fas fa-file-powerpoint"></i> Slides
       </a>
     {% endif %}
-    {% if talk.video_url %}
+    {% if talk.video_url and talk.video_url != "" %}
       <a href="{{ talk.video_url }}" target="_blank" style="margin-left: 1rem;">
         <i class="fas fa-video"></i> Video
       </a>
