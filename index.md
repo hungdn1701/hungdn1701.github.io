@@ -64,4 +64,4 @@ Interested in **microservices**, **system design**, or just want to chat about t
 
 ---
 
-_"Building systems that scale, teaching minds that grow."_
+> "The best way to learn is to teach, and the best way to teach is to build."
