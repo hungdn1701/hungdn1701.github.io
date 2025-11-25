@@ -2,48 +2,46 @@
 layout: page
 ---
 
-## 👨‍💻 Backend Engineer & System Architect | 🎓 Lecturer
-
-Hey there! I'm **Hung Dang**, a passionate backend developer and educator specializing in **microservices architecture**, **distributed systems**, and **high-performance applications**.
-
-### 🚀 What I Do
-
-I build resilient, scalable systems and teach the next generation of developers how to do the same. My expertise spans across:
-
-- **Microservices Architecture** — Designing and implementing distributed systems with service mesh, event-driven patterns
-- **System Design** — Creating scalable, fault-tolerant architectures for high-traffic applications
-- **Backend Development** — Spring Boot, Node.js, databases (SQL/NoSQL), caching strategies
-- **DevOps & Cloud** — Kubernetes, Docker, CI/CD pipelines, observability (OpenTelemetry, Prometheus, Grafana)
-
-### 📌 Recent Highlights
-
-- 🎯 **Latest Project**: E-Commerce platform with Saga pattern, Outbox pattern & distributed tracing
-- 🎤 **Recent Talk**: "Architecting for Reliability" at Vietnam Tech Summit 2024
-- 📚 **Now Teaching**: Advanced Microservices Architecture (150+ students)
-- 📝 **Fresh Content**: RESTful API Design Guidelines & SLO/SLI templates
-
-### 🔥 Featured Work
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
-  <div style="border: 1px solid var(--border-color); padding: 1.5rem; border-radius: 8px;">
-    <h4>🏗️ <a href="/projects/">Projects</a></h4>
-    <p>Production-grade microservices implementations, distributed systems, and open-source contributions</p>
-  </div>
-  
-  <div style="border: 1px solid var(--border-color); padding: 1.5rem; border-radius: 8px;">
-    <h4>🎓 <a href="/teaching/">Teaching</a></h4>
-    <p>University courses, workshops, and hands-on labs in backend development & system design</p>
-  </div>
-</div>
-
-
-### � Let's Connect
-
-Interested in **microservices**, **system design**, or just want to chat about tech? Feel free to reach out!
-
-- 💼 Check out my [Projects](/projects/) and [Publications](/publications/)
-- 🎤 Presentations available upon request (see contact)
-
----
+I am **Hung Dang**, a lecturer in the Information Technology Department at the Posts and Telecommunications Institute of Technology (PTIT), and a backend engineer and system architect focusing on distributed systems.
 
 > "The best way to learn is to teach, and the best way to teach is to build."
+
+
+### 🎓 Education
+
+| Degree       | Institution                                                                    | Major                  | Year |
+| :----------- | :----------------------------------------------------------------------------- | :--------------------- | :--- |
+| **PhD**      | <abbr title="Posts and Telecommunications Institute of Technology">PTIT</abbr> | Information Systems    | 2022 |
+| **Master**   | <abbr title="Posts and Telecommunications Institute of Technology">PTIT</abbr> | Computer Science       | 2013 |
+| **Bachelor** | <abbr title="Posts and Telecommunications Institute of Technology">PTIT</abbr> | Information Technology | 2009 |
+
+### 💼 Professional Experience
+
+- **Lecturing and supervision** — teaching service-oriented development, network programming, and web services/microservices at PTIT since 2013; supervising labs and capstone projects.
+- **Backend development** — design and implementation of scalable APIs and microservices.
+- **System architecture** — design of reliable, high-performance distributed systems in on-premise and VPS environments.
+
+### 🛠️ Tech Stack
+
+**Languages:** Java, C#, JavaScript/TypeScript, Python, Go  
+**Frameworks:** Spring Boot, Node.js, Express  
+**Databases:** PostgreSQL, SQL Server, Oracle, MongoDB, Redis  
+**Runtime & Deployment:** Linux servers, Docker, VPS and on-premise deployments, CI/CD with Jenkins and GitHub 
+Actions  
+**Messaging:** Kafka, RabbitMQ, NATS  
+**Observability:** Prometheus, Grafana, Jaeger, ELK Stack
+
+
+### 🌱 Interests
+
+- Distributed systems and microservices  
+- Performance and scalability  
+- System design and architecture  
+- Data integration and processing, including GIS and spatial data systems
+
+### 📫 Contact
+
+- **Email**: hungdn1701@gmail.com  
+- **GitHub**: [@hungdn1701](https://github.com/hungdn1701)
+
+---
