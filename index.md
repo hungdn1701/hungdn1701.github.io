@@ -34,11 +34,6 @@ I build resilient, scalable systems and teach the next generation of developers 
     <h4>🎓 <a href="/teaching/">Teaching</a></h4>
     <p>University courses, workshops, and hands-on labs in backend development & system design</p>
   </div>
-  
-  <div style="border: 1px solid var(--border-color); padding: 1.5rem; border-radius: 8px;">
-    <h4>🛠️ <a href="/playbook/">Playbook</a></h4>
-    <p>Technical guides, best practices, and battle-tested patterns from real-world experience</p>
-  </div>
 </div>
 
 
@@ -46,9 +41,8 @@ I build resilient, scalable systems and teach the next generation of developers 
 
 Interested in **microservices**, **system design**, or just want to chat about tech? Feel free to reach out!
 
--- 💼 Check out my [Projects](/projects/) and [Publications](/publications/)
--- 🎤 Presentations available upon request (see contact)
-- 📖 Explore the [Technical Playbook](/playbook/) for practical guides
+- 💼 Check out my [Projects](/projects/) and [Publications](/publications/)
+- 🎤 Presentations available upon request (see contact)
 
 ---
 
