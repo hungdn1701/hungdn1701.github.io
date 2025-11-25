@@ -1,10 +1,9 @@
 ---
 layout: page
 icon: fas fa-folder-open
-order: 2
+order: 5
 ---
 
-## My Projects
 
 Projects are currently under development and will be showcased here soon.
 

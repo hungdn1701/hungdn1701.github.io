@@ -1,10 +1,9 @@
 ---
 layout: page
 icon: fas fa-chalkboard-teacher
-order: 3
+order: 2
 ---
 
-## Teaching — courses & approach
 
 Since 2013, I have taught in the Information Technology Department at the Posts and Telecommunications Institute of Technology (PTIT), where I have been a faculty member since 2016. My teaching emphasizes systems-oriented, industry-relevant skills for software engineering practice.
 

@@ -1,6 +1,6 @@
 layout: page
 icon: fas fa-book
-order: 5
+order: 3
 
 ## Publications & Research
 
