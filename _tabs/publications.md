@@ -6,59 +6,67 @@ order: 5
 
 ## Publications & Research
 
-Academic papers, articles, and research work in software engineering and system architecture.
+Academic papers, articles, and research work in software engineering and communication systems. Publications are grouped by category and sorted by year.
 
-{% if site.publications %}
-  {% assign sorted_publications = site.publications | sort: 'date' | reverse %}
-  {% for pub in sorted_publications %}
-<div class="publication-item" style="margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border-color);">
-  <h3>
-    {{ pub.title }}
-  </h3>
-  
-  {% if pub.authors %}
-  <p style="font-size: 0.95em; color: var(--text-muted-color);">
-    <i class="fas fa-users"></i> {{ pub.authors }}
-  </p>
-  {% endif %}
-  
-  {% if pub.venue %}
-  <p style="font-size: 0.95em; font-style: italic;">
-    {{ pub.venue }}
-  </p>
-  {% endif %}
-  
-  {% if pub.date %}
-  <p class="text-muted" style="font-size: 0.9em;">
-    <i class="far fa-calendar"></i> {{ pub.date | date: "%B %Y" }}
-  </p>
-  {% endif %}
-  
-  {% if pub.abstract %}
-  <p>{{ pub.abstract }}</p>
-  {% endif %}
-  
-  {% if pub.paper_url or pub.doi or pub.code_url %}
-  <p>
-    {% if pub.paper_url and pub.paper_url != "" %}
-      <a href="{{ pub.paper_url }}" target="_blank">
-        <i class="fas fa-file-pdf"></i> Paper
-      </a>
+{% assign pubs = site.publications | sort: 'date' | reverse %}
+
+{% comment %} Helper to render each publication line {% endcomment %}
+{% capture render_pub %}
+<p style="margin:0">{% if pub.citation %}{{ pub.citation }}{% else %}{% if pub.authors %}{{ pub.authors }}. {% endif %}<strong>{{ pub.title }}</strong>. {% if pub.venue %}{{ pub.venue }}{% endif %}{% if pub.pages %}, pp. {{ pub.pages }}{% endif %}{% if pub.date %}, {{ pub.date | date: "%Y" }}{% endif %}.{% endif %}
+{% if pub.doi and pub.doi != '' %} <a href="https://doi.org/{{ pub.doi }}" target="_blank">DOI</a>{% endif %}{% if pub.paper_url and pub.paper_url != '' %} <a href="{{ pub.paper_url }}" target="_blank" style="margin-left:0.5rem">Paper</a>{% endif %}</p>
+{% endcapture %}
+
+{% comment %} International journals {% endcomment %}
+### International journals
+{% assign internationals = pubs | where: "category", "journal-international" %}
+{% if internationals and internationals != empty %}
+  {% assign last_year = "" %}
+  {% for pub in internationals %}
+    {% assign py = pub.date | date: "%Y" %}
+    {% if py != last_year %}
+      <h4 style="margin-top:1.25rem">{{ py }}</h4>
+      {% assign last_year = py %}
     {% endif %}
-    {% if pub.doi and pub.doi != "" %}
-      <a href="https://doi.org/{{ pub.doi }}" target="_blank" style="margin-left: 1rem;">
-        <i class="fas fa-link"></i> DOI
-      </a>
-    {% endif %}
-    {% if pub.code_url and pub.code_url != "" %}
-      <a href="{{ pub.code_url }}" target="_blank" style="margin-left: 1rem;">
-        <i class="fab fa-github"></i> Code
-      </a>
-    {% endif %}
-  </p>
-  {% endif %}
-</div>
+    {{ render_pub }}
   {% endfor %}
 {% else %}
-  <p class="text-muted"><em>Publications coming soon...</em></p>
+  <p class="text-muted"><em>No international journal entries yet.</em></p>
 {% endif %}
+
+{% comment %} National journals {% endcomment %}
+### National / Local journals
+{% assign nationals = pubs | where: "category", "journal-national" %}
+{% if nationals and nationals != empty %}
+  {% assign last_year = "" %}
+  {% for pub in nationals %}
+    {% assign py = pub.date | date: "%Y" %}
+    {% if py != last_year %}
+      <h4 style="margin-top:1.25rem">{{ py }}</h4>
+      {% assign last_year = py %}
+    {% endif %}
+    {{ render_pub }}
+  {% endfor %}
+{% else %}
+  <p class="text-muted"><em>No national journal entries yet.</em></p>
+{% endif %}
+
+{% comment %} Conferences {% endcomment %}
+### Conference proceedings
+{% assign confs = pubs | where: "category", "conference" %}
+{% if confs and confs != empty %}
+  {% assign last_year = "" %}
+  {% for pub in confs %}
+    {% assign py = pub.date | date: "%Y" %}
+    {% if py != last_year %}
+      <h4 style="margin-top:1.25rem">{{ py }}</h4>
+      {% assign last_year = py %}
+    {% endif %}
+    {{ render_pub }}
+  {% endfor %}
+{% else %}
+  <p class="text-muted"><em>No conference entries yet.</em></p>
+{% endif %}
+
+{%- comment -%} End grouped listing {%- endcomment -%}
+ 
+{# legacy loop removed #}

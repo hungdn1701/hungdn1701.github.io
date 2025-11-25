@@ -46,8 +46,8 @@ I build resilient, scalable systems and teach the next generation of developers 
 
 Interested in **microservices**, **system design**, or just want to chat about tech? Feel free to reach out!
 
-- 💼 Check out my [Projects](/projects/) and [Publications](/publications/)
-- 🎤 See my [Talks & Presentations](/talks/)
+-- 💼 Check out my [Projects](/projects/) and [Publications](/publications/)
+-- 🎤 Presentations available upon request (see contact)
 - 📖 Explore the [Technical Playbook](/playbook/) for practical guides
 
 ---
