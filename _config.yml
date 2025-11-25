@@ -179,9 +179,6 @@ collections:
   talks:
     output: true
     sort_by: order
-  publications:
-    output: true
-    sort_by: order
   playbook:
     output: true
     sort_by: order

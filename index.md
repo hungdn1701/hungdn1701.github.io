@@ -4,7 +4,7 @@ layout: page
 
 I am **Hung Dang**, a lecturer in the Information Technology Department at the Posts and Telecommunications Institute of Technology (PTIT), and a backend engineer and system architect focusing on distributed systems.
 
-> "The best way to learn is to teach, and the best way to teach is to build."
+
 
 
 ### 🎓 Education
@@ -45,3 +45,5 @@ Actions
 - **GitHub**: [@hungdn1701](https://github.com/hungdn1701)
 
 ---
+
+> "The best way to learn is to teach, and the best way to teach is to build."
