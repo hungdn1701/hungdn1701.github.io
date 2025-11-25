@@ -4,17 +4,26 @@ icon: fas fa-chalkboard-teacher
 order: 3
 ---
 
-## Teaching (short)
+## Teaching — courses & approach
 
-I have taught since 2013 and joined the Faculty of Information Technology at the Posts and Telecommunications Institute of Technology (PTIT) in 2016.
+I have been teaching since 2013 and have been a faculty member in the Information Technology Department at the Posts and Telecommunications Institute of Technology (PTIT) since 2016. My teaching focuses on practical, systems-oriented skills students can apply directly in software engineering teams and industry projects.
 
-1) Primary courses (regular):
+Primary courses (regular)
 
-- Service-Oriented Software Development — design and build service-based systems (microservices foundations)
-- Network Programming — sockets, protocols and building networked applications
+- **Service‑Oriented Software Development** — design and build reliable service-based systems. Topics include service decomposition, API design, inter-service communication, service versioning and operational concerns.
+- **Network Programming** — low-level and concurrent networking: TCP/UDP, socket programming, protocol design, asynchronous I/O, and performance considerations.
+- **Web Services & Microservices** — API-first design, REST/GraphQL, containerized services, service meshes, and end-to-end CI/CD for microservice platforms.
 
-2) Occasional / short modules:
+Other modules (short / elective)
 
-- Web programming, Databases, C systems programming
+- Web programming, Databases, and C systems programming — delivered as focused labs and short workshops to strengthen students’ practical skills.
 
-If you’d like, I can expand each primary course into a dedicated syllabus page later.
+Teaching style & outcomes
+
+- **Project‑based learning:** hands-on labs, group projects and real-world case studies that bridge theory and practice.
+- **Industry-ready skills:** emphasis on design trade-offs, testing, performance and observability so students leave prepared for production systems work.
+- **Mentoring & supervision:** I’ve taught and mentored hundreds of students in lectures, labs and capstone projects.
+
+Course materials and syllabi are available on request. If you’d like, I can add detailed syllabi, sample assignments or a reading list for each primary course on separate pages.
+
+For enquiries about teaching, course collaborations or guest lectures, contact me via the contact links in the site footer.
