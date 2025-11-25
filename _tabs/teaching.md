@@ -4,9 +4,17 @@ icon: fas fa-chalkboard-teacher
 order: 3
 ---
 
-## Teaching Experience
+## Teaching
 
-Courses and workshops I've taught in backend development, system design, and software engineering.
+I've taught since 2013 and officially joined the Faculty of Information Technology at the Posts and Telecommunications Institute of Technology (PTIT) in 2016.
+
+My primary courses (regular/major):
+
+- Service-Oriented Software Development
+- Network Programming
+- Web Services & Microservices
+
+I also deliver shorter modules and workshops in web programming, databases, and C systems programming.
 
 {% if site.teaching %}
   {% assign sorted_teaching = site.teaching | sort: 'order' %}

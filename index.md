@@ -41,18 +41,6 @@ I build resilient, scalable systems and teach the next generation of developers 
   </div>
 </div>
 
-### 💡 Core Principles
-
-```java
-public class MyPhilosophy {
-    private static final String[] BELIEFS = {
-        "Code for maintainability, not just functionality",
-        "Embrace failure — systems will fail, design for resilience",
-        "Measure everything — you can't improve what you don't measure",
-        "Teach what you learn — knowledge grows when shared"
-    };
-}
-```
 
 ### � Let's Connect
 

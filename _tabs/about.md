@@ -6,11 +6,13 @@ order: 7
 
 I'm **Hung Dang**, a Backend Engineer, System Architect, and Lecturer with a passion for building distributed systems and mentoring developers.
 
-### 🎓 Education & Background
+### 🎓 Education
 
-- **Lecturer** at FPT University
-- Specialized in **Microservices Architecture** and **Distributed Systems**
-- 10+ years of experience in software engineering
+| Degree     | Institution                                                           | Major                  | Year |
+| :--------- | :-------------------------------------------------------------------- | :--------------------- | :--- |
+| **PhD**    | <abbr title="Posts and Telecommunications Institute of Technology">PTIT</abbr>    | Information Systems    | 2022 |
+| **Master** | <abbr title="Posts and Telecommunications Institute of Technology">PTIT</abbr>    | Computer Science       | 2013 |
+| **Bachelor** | <abbr title="Posts and Telecommunications Institute of Technology">PTIT</abbr>  | Information Technology | 2009 |
 
 ### 💼 Professional Experience
 
