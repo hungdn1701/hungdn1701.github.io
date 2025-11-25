@@ -5,17 +5,7 @@ layout: page
 I am **Hung Dang**, a lecturer in the Information Technology Department at the Posts and Telecommunications Institute of Technology (PTIT), and a backend engineer and system architect focusing on distributed systems.
 
 
-
-
-### 🎓 Education
-
-| Degree       | Institution                                                                    | Major                  | Year |
-| :----------- | :----------------------------------------------------------------------------- | :--------------------- | :--- |
-| **PhD**      | <abbr title="Posts and Telecommunications Institute of Technology">PTIT</abbr> | Information Systems    | 2022 |
-| **Master**   | <abbr title="Posts and Telecommunications Institute of Technology">PTIT</abbr> | Computer Science       | 2013 |
-| **Bachelor** | <abbr title="Posts and Telecommunications Institute of Technology">PTIT</abbr> | Information Technology | 2009 |
-
-### 💼 Professional Experience
+### 💼 Experience
 
 - **Lecturing and supervision** — teaching service-oriented development, network programming, and web services/microservices at PTIT since 2013; supervising labs and capstone projects.
 - **Backend development** — design and implementation of scalable APIs and microservices.
