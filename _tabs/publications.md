@@ -22,15 +22,11 @@ Publications are listed by year (most recent first) and labeled as journal or co
       {% assign last_year = py %}
     {% endif %}
     <p style="margin:0">
-      {% if pub.citation %}
-        {{ pub.citation }}
-      {% else %}
-        {% if pub.authors %}{{ pub.authors }}. {% endif %}
-        <strong>{{ pub.title }}</strong>.
-        {% if pub.venue %} {{ pub.venue }}{% endif %}
-        {% if pub.pages %}, pp. {{ pub.pages }}{% endif %}
-        {% if pub.date %}, {{ pub.date | date: "%Y" }}{% endif %}.
-      {% endif %}
+      {% if pub.authors %}{{ pub.authors }}. {% endif %}
+      <strong>{{ pub.title }}</strong>.
+      {% if pub.venue %} {{ pub.venue }}{% endif %}
+      {% if pub.pages %}, pp. {{ pub.pages }}{% endif %}
+      {% if pub.date %}, {{ pub.date | date: "%Y" }}{% endif %}.
       {% if pub.doi and pub.doi != '' %}
         <a href="https://doi.org/{{ pub.doi }}" target="_blank">DOI</a>
       {% endif %}
@@ -55,15 +51,11 @@ Publications are listed by year (most recent first) and labeled as journal or co
       {% assign last_year = py %}
     {% endif %}
     <p style="margin:0">
-      {% if pub.citation %}
-        {{ pub.citation }}
-      {% else %}
-        {% if pub.authors %}{{ pub.authors }}. {% endif %}
-        <strong>{{ pub.title }}</strong>.
-        {% if pub.venue %} {{ pub.venue }}{% endif %}
-        {% if pub.pages %}, pp. {{ pub.pages }}{% endif %}
-        {% if pub.date %}, {{ pub.date | date: "%Y" }}{% endif %}.
-      {% endif %}
+      {% if pub.authors %}{{ pub.authors }}. {% endif %}
+      <strong>{{ pub.title }}</strong>.
+      {% if pub.venue %} {{ pub.venue }}{% endif %}
+      {% if pub.pages %}, pp. {{ pub.pages }}{% endif %}
+      {% if pub.date %}, {{ pub.date | date: "%Y" }}{% endif %}.
       {% if pub.doi and pub.doi != '' %}
         <a href="https://doi.org/{{ pub.doi }}" target="_blank">DOI</a>
       {% endif %}
@@ -88,15 +80,11 @@ Publications are listed by year (most recent first) and labeled as journal or co
       {% assign last_year = py %}
     {% endif %}
     <p style="margin:0">
-      {% if pub.citation %}
-        {{ pub.citation }}
-      {% else %}
-        {% if pub.authors %}{{ pub.authors }}. {% endif %}
-        <strong>{{ pub.title }}</strong>.
-        {% if pub.venue %} {{ pub.venue }}{% endif %}
-        {% if pub.pages %}, pp. {{ pub.pages }}{% endif %}
-        {% if pub.date %}, {{ pub.date | date: "%Y" }}{% endif %}.
-      {% endif %}
+      {% if pub.authors %}{{ pub.authors }}. {% endif %}
+      <strong>{{ pub.title }}</strong>.
+      {% if pub.venue %} {{ pub.venue }}{% endif %}
+      {% if pub.pages %}, pp. {{ pub.pages }}{% endif %}
+      {% if pub.date %}, {{ pub.date | date: "%Y" }}{% endif %}.
       {% if pub.doi and pub.doi != '' %}
         <a href="https://doi.org/{{ pub.doi }}" target="_blank">DOI</a>
       {% endif %}
