@@ -4,9 +4,6 @@ icon: fas fa-book
 order: 3
 ---
 
-
-## Publications & Research
-
 Publications are listed by year (most recent first) and labeled as journal or conference.
 
 ### International journals

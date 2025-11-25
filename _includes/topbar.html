@@ -5,6 +5,7 @@
     id="topbar"
     class="d-flex align-items-center justify-content-between px-lg-3 h-100"
   >
+    {%- comment -%}
     <nav id="breadcrumb" aria-label="Breadcrumb">
       {% assign paths = page.url | split: '/' %}
 
@@ -38,6 +39,7 @@
         {% endfor %}
       {% endif %}
     </nav>
+    {%- endcomment -%}
     <!-- endof #breadcrumb -->
 
     <button type="button" id="sidebar-trigger" class="btn btn-link" aria-label="Sidebar">

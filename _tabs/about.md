@@ -5,8 +5,6 @@ order: 10
 title: About
 ---
 
-# About
-
 > This page is under construction. More information will be added soon.
 
 ### 🎓 Education
