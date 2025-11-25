@@ -6,24 +6,20 @@ order: 3
 
 ## Teaching — courses & approach
 
-I have been teaching since 2013 and have been a faculty member in the Information Technology Department at the Posts and Telecommunications Institute of Technology (PTIT) since 2016. My teaching focuses on practical, systems-oriented skills students can apply directly in software engineering teams and industry projects.
+Since 2013, I have taught in the Information Technology Department at the Posts and Telecommunications Institute of Technology (PTIT), where I have been a faculty member since 2016. My teaching emphasizes systems-oriented, industry-relevant skills for software engineering practice.
 
 Primary courses (regular)
 
-- **Service‑Oriented Software Development** — design and build reliable service-based systems. Topics include service decomposition, API design, inter-service communication, service versioning and operational concerns.
-- **Network Programming** — low-level and concurrent networking: TCP/UDP, socket programming, protocol design, asynchronous I/O, and performance considerations.
-- **Web Services & Microservices** — API-first design, REST/GraphQL, containerized services, service meshes, and end-to-end CI/CD for microservice platforms.
+- **Service-Oriented Software Development** — principles and practice of service-based systems, including service decomposition, API design, inter-service communication, versioning, and operational aspects.
+- **Network Programming** — low-level and concurrent network programming with TCP/UDP, sockets, protocol design, asynchronous I/O, and performance considerations.
+- **Web Services & Microservices** — API-first design, REST/GraphQL, containerized services, service meshes, and CI/CD for microservice-based platforms.
 
 Other modules (short / elective)
 
-- Web programming, Databases, and C systems programming — delivered as focused labs and short workshops to strengthen students’ practical skills.
+- Web programming, databases, and C systems programming, delivered as intensive labs and short workshops to strengthen practical competencies.
 
 Teaching style & outcomes
 
-- **Project‑based learning:** hands-on labs, group projects and real-world case studies that bridge theory and practice.
-- **Industry-ready skills:** emphasis on design trade-offs, testing, performance and observability so students leave prepared for production systems work.
-- **Mentoring & supervision:** I’ve taught and mentored hundreds of students in lectures, labs and capstone projects.
-
-Course materials and syllabi are available on request. If you’d like, I can add detailed syllabi, sample assignments or a reading list for each primary course on separate pages.
-
-For enquiries about teaching, course collaborations or guest lectures, contact me via the contact links in the site footer.
+- **Project-based learning:** labs, group projects, and case studies that tightly couple theory with implementation.
+- **Industry-oriented training:** focus on design trade-offs, testing, performance, and observability for production-grade systems.
+- **Mentoring:** supervision of lectures, labs, and capstone projects for hundreds of students.
