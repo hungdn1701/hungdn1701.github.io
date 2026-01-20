@@ -1,43 +1,54 @@
-# Chirpy Starter
+# hungdn1701.github.io
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+Personal academic website of **Hung Dang** — Lecturer at PTIT, Backend Engineer & System Architect.
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+🌐 **Live site**: [hungdn1701.github.io](https://hungdn1701.github.io)
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+## About
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+This site showcases my teaching, research, and projects. Built with [Jekyll](https://jekyllrb.com/) using the [Chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy).
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+## Development
+
+### Prerequisites
+
+- Ruby 3.x
+- Bundler (`gem install bundler`)
+
+### Local Setup
+
+```bash
+# Install dependencies
+bundle install
+
+# Run development server
+./tools/run.sh
+
+# Build for production
+./tools/test.sh
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+### Using GitHub Codespaces
 
-## Usage
+This repo is configured for GitHub Codespaces. Just open in Codespaces and run:
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+```bash
+./tools/run.sh -H 0.0.0.0
+```
 
-## Contributing
+## Structure
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+```
+├── _tabs/           # Navigation pages (about, teaching, etc.)
+├── _teaching/       # Course pages
+├── _data/           # Site configuration (contact, share)
+├── _includes/       # Custom HTML partials
+├── assets/
+│   ├── img/         # Images
+│   └── materials/   # Course slides & labs (PDF)
+└── tools/           # Dev scripts
+```
 
 ## License
 
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+Content © Hung Dang. Theme licensed under [MIT](LICENSE).

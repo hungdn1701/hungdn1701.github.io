@@ -2,36 +2,35 @@
 layout: page
 ---
 
-I am **Hung Dang**, a lecturer in the Information Technology Department at the Posts and Telecommunications Institute of Technology (PTIT), and a backend engineer and system architect focusing on distributed systems.
-
+I am **Hung Dang**, a lecturer at PTIT and a backend engineer focusing on distributed systems.
 
 ### 💼 Experience
 
-- **Lecturing and supervision** — teaching service-oriented development, network programming, and web services/microservices at PTIT since 2013; supervising labs and capstone projects.
-- **Backend development** — design and implementation of scalable APIs and microservices.
-- **System architecture** — design of reliable, high-performance distributed systems in on-premise and VPS environments.
+- **Lecturing** — service-oriented development, network programming, microservices at PTIT since 2013
+- **Backend development** — scalable APIs and microservices
+- **System architecture** — distributed systems on-premise and cloud
 
 ### 🛠️ Tech Stack
 
-**Languages:** Java, C#, JavaScript/TypeScript, Python, Go  
-**Frameworks:** Spring Boot, Node.js, Express  
-**Databases:** PostgreSQL, SQL Server, Oracle, MongoDB, Redis  
-**Runtime & Deployment:** Linux servers, Docker, VPS and on-premise deployments, CI/CD with Jenkins and GitHub 
-Actions  
-**Messaging:** Kafka, RabbitMQ, NATS  
-**Observability:** Prometheus, Grafana, Jaeger, ELK Stack
-
+| Category      | Technologies                                |
+| ------------- | ------------------------------------------- |
+| Languages     | `Java` `C#` `TypeScript` `Python` `Go`      |
+| Frameworks    | `Spring Boot` `Node.js` `Express`           |
+| Databases     | `PostgreSQL` `SQL Server` `MongoDB` `Redis` |
+| DevOps        | `Docker` `Linux` `Jenkins` `GitHub Actions` |
+| Messaging     | `Kafka` `RabbitMQ` `NATS`                   |
+| Observability | `Prometheus` `Grafana` `Jaeger` `ELK`       |
 
 ### 🌱 Interests
 
-- Distributed systems and microservices  
-- Performance and scalability  
-- System design and architecture  
-- Data integration and processing, including GIS and spatial data systems
+- Distributed systems and microservices
+- Performance and scalability
+- System design and architecture
+- GIS and spatial data systems
 
 ### 📫 Contact
 
-- **Email**: hungdn1701@gmail.com  
+- **Email**: hungdn@ptit.edu.vn
 - **GitHub**: [@hungdn1701](https://github.com/hungdn1701)
 
 ---
