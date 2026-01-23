@@ -2,66 +2,84 @@
 layout: page
 title: Service-Oriented Software Development
 order: 2
-course_code: IT4xxx
+course_code: INT1448
 credits: 3
-semester: "Spring 2026"
+semester: "Semester II, 2025–2026"
 lang: en
+year: 2026
+archived: false
 ---
 
-> Semester 08 — Final semester. Building skills for the next chapter.
+## Course Information
 
-## Objectives
+| Code    | Credits | Lecture | Seminar | Semester      |
+| ------- | ------- | ------- | ------- | ------------- |
+| INT1448 | 3       | 36 hrs  | 18 hrs  | II, 2025–2026 |
 
-Analyze, design, develop, and deploy service-oriented software/applications.
+**Instructor:** Hung Dang — hungdn@ptit.edu.vn
 
-- **Scope**: 1–3 Use Cases ~ 1 Feature
-- **Concept**: Project team experiences the full lifecycle of a service-oriented product
+## Learning Objectives
 
-## Materials
+Upon completion of this course, students will be able to:
 
-| #   | Content                                           | Notes                         |
-| --- | ------------------------------------------------- | ----------------------------- |
-| 1   | Analysis & Design Service/Microservice            | Instructor lectures (.md)     |
-| 2   | [Microservice Patterns](https://microservices.io) | Student research + dev (repo) |
-| 3   | Microservice Up and Running                       | Deploy/CI-CD (GitHub Actions) |
+1. Analyze and design service-oriented software systems
+2. Develop applications using Microservices architecture
+3. Deploy and operate systems with CI/CD pipelines
 
-## Schedule (16 weeks)
+## Course Schedule
 
-| Phase   | Weeks | Content                                                     |
-| ------- | ----- | ----------------------------------------------------------- |
-| Theory  | 1–4   | Instructor presents Analysis & Design                       |
-| Seminar | 5–9   | Student presentations (individual/group, optional)          |
-| Project | 10–15 | Group project discussions (max 3 members), 3 sessions/group |
-| Wrap-up | 16    | Buffer, summary                                             |
+### Part 1: Theory (Weeks 1–4)
 
-*+ 2 evening online sessions for group discussions*
+| Week | Topic                              | Materials                                                |
+| ---- | ---------------------------------- | -------------------------------------------------------- |
+| 1    | Course Introduction                | [Slides 01](/assets/materials/sod-en/slides/week-01.pdf) |
+| 2    | Service-Oriented Architecture      | [Slides 02](/assets/materials/sod-en/slides/week-02.pdf) |
+| 3    | Service Analysis and Decomposition | [Slides 03](/assets/materials/sod-en/slides/week-03.pdf) |
+| 4    | API Design and Communication       | [Slides 04](/assets/materials/sod-en/slides/week-04.pdf) |
+
+*Microservices Design Patterns is self-study material (see Reference #2)*
+
+### Part 2: Seminar (Weeks 5–9)
+
+2–3 groups present each session:
+
+| Week | Research Topic                     | Materials                                                |
+| ---- | ---------------------------------- | -------------------------------------------------------- |
+| 5    | API Gateway, Service Discovery     | [Topic 05](/assets/materials/sod-en/topics/topic-05.pdf) |
+| 6    | Communication Patterns             | [Topic 06](/assets/materials/sod-en/topics/topic-06.pdf) |
+| 7    | Transactional Messaging, Saga      | [Topic 07](/assets/materials/sod-en/topics/topic-07.pdf) |
+| 8    | Circuit Breaker, Reliability       | [Topic 08](/assets/materials/sod-en/topics/topic-08.pdf) |
+| 9    | Observability, Distributed Tracing | [Topic 09](/assets/materials/sod-en/topics/topic-09.pdf) |
+
+### Part 3: Project (Weeks 10–16)
+
+| Week  | Activity                | Notes              |
+| ----- | ----------------------- | ------------------ |
+| 10    | Project Kickoff         | Max 3 members/team |
+| 11–12 | Development & Review 1  |                    |
+| 13–14 | Development & Review 2  |                    |
+| 15    | Review 3 & Finalization |                    |
+| 16    | Project Defense         |                    |
 
 ## Assessment
 
-| Component       | Weight | Details                                              |
-| --------------- | ------ | ---------------------------------------------------- |
-| Attendance      | 10%    | -1 point per absence                                 |
-| Quiz (TBKT)     | 20%    | 10' multiple choice (70%) + topic presentation (30%) |
-| Final Report    | 40%    | Group: content, complexity, source, deploy, AI       |
-| Project Defense | 30%    | Individual: contribution + Q&A                       |
-
-**Final Exam**: 20' multiple choice (40–60 questions) — opportunity to adjust grade.
-
-## Career Paths
-
-| Skill                        | Position           |
-| ---------------------------- | ------------------ |
-| Requirements Analysis        | BA                 |
-| Service-Oriented Development | BE / DevOps        |
-| Quality Assurance            | Tester / QA-QC     |
-| Architecture & Design        | Solution Architect |
+| Component  | Weight | Description                                   |
+| ---------- | ------ | --------------------------------------------- |
+| Attendance | 10%    | Weekly check-in                               |
+| Quizzes    | 20%    | MCQ + Seminar presentation                    |
+| Project    | 70%    | Group report (40%) + Individual defense (30%) |
 
 ## References
 
-- *Building Microservices* — Sam Newman
-- *Microservices Patterns* — Chris Richardson
-- *Designing Data-Intensive Applications* — Martin Kleppmann
+1. Erl, T. (2016). *Service-Oriented Architecture: Analysis & Design for Services and Microservices* (2nd ed.). Prentice Hall. [Download](/assets/materials/sod-en/books/book-01.pdf)
+2. Richardson, C. (2018). *Microservices Patterns: With Examples in Java*. Manning. [1st Ed.](/assets/materials/sod-en/books/book-02a.pdf) \| [2nd Ed.](/assets/materials/sod-en/books/book-02b.pdf)
+3. Mitra, R., & Nadareishvili, I. (2020). *Microservices: Up and Running*. O'Reilly. [Download](/assets/materials/sod-en/books/book-03.pdf)
 
----
+## Concurrent Courses and Career Orientation
 
-📧 [hungdn@ptit.edu.vn](mailto:hungdn@ptit.edu.vn)
+| Course                              | Position                  |
+| ----------------------------------- | ------------------------- |
+| Requirements Analysis               | Business Analyst          |
+| Service-Oriented Development        | Backend / DevOps Engineer |
+| Software Quality Assurance          | QA/QC Engineer            |
+| Software Architecture & Development | System Architect          |

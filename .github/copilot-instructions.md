@@ -34,6 +34,21 @@ This is a personal academic/portfolio website built with **Jekyll** using the **
 
 Use the pre-configured tasks: "Run Jekyll Server" or "Build Jekyll Site"
 
+## Content Style Guide
+
+**Consistency rules for all pages:**
+
+- Use `##` for main sections (not `###` with emoji)
+- Tables: simple format, no bold in cells, left-align
+- Lists: use `-` for bullets, `**bold**` for labels
+- No intro paragraphs on tab pages (info is on index/about)
+- Keep content concise and scannable
+
+**Academic year format:**
+
+- Semester: `Semester I, 2025–2026` or `Semester II, 2025–2026`
+- Year runs August (previous year) to June (current year)
+
 ## Content Conventions
 
 ### Front Matter for Tab Pages (`_tabs/`)
@@ -85,18 +100,23 @@ title: Course Name
 order: 1 # Display order in course list
 course_code: IT4xxx # Official course code
 credits: 3 # Number of credits
-semester: "Fall 2025" # Current/next offering
+semester: "Semester I, 2025–2026"
+lang: vi # vi or en
+year: 2026 # For archiving
+archived: false # Set true when semester ends
 ---
 ```
 
-Course pages should include: Overview, Learning Objectives, Prerequisites, Schedule (weekly), Labs, Assessment, and Resources.
+### Quick tasks
 
-The main Teaching tab (`_tabs/teaching.md`) auto-generates a course list using Liquid:
+| Task           | Action                                                      |
+| -------------- | ----------------------------------------------------------- |
+| Add course     | Create `_teaching/course-name-vi.md`, set `archived: false` |
+| Archive course | Set `archived: true` in front matter                        |
+| Add materials  | Upload PDFs to `assets/materials/<course>-vi/slides/`       |
+| Link materials | `[Slides](/assets/materials/course-vi/slides/week-01.pdf)`  |
 
-```liquid
-{% assign sorted_courses = site.teaching | sort: 'order' %}
-{% for course in sorted_courses %}...{% endfor %}
-```
+Course pages should include: Overview, Objectives, Schedule, Assessment, and Resources.
 
 ## Common Tasks
 

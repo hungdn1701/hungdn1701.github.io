@@ -4,27 +4,34 @@ icon: fas fa-chalkboard-teacher
 order: 2
 ---
 
-Faculty member at PTIT since 2016. Teaching systems-oriented, industry-relevant software engineering.
+## Semester II, 2025–2026
 
----
+{% assign current_courses = site.teaching | where: "archived", false | sort: 'order' %}
+{% for course in current_courses %}
+- [{{ course.title }}]({{ course.url | relative_url }}) — {{ course.credits }} credits {% if course.lang == 'en' %}🇬🇧{% else %}🇻🇳{% endif %}
+{% endfor %}
 
 ## Courses
 
-{% assign sorted_courses = site.teaching | sort: 'order' %}
-{% for course in sorted_courses %}
-- **[{{ course.title }}]({{ course.url | relative_url }})** — {{ course.credits }} credits {% if course.lang == 'en' %}🇬🇧{% else %}🇻🇳{% endif %}
+| Course                       | Year | Topics                             |
+| ---------------------------- | ---- | ---------------------------------- |
+| C Programming                | 1    | Fundamentals, pointers, memory     |
+| OOP                          | 2    | Java/C#, design principles         |
+| Web Programming              | 3    | MVC, frontend, backend             |
+| Network Programming          | 3    | Sockets, protocols, multithreading |
+| Service-Oriented Development | 4    | Microservices, patterns, DevOps    |
+
+## Archive
+
+<details>
+<summary>Previous semesters</summary>
+
+**Semester I, 2025–2026**
+- Network Programming 🇻🇳
+
+{% assign archived_courses = site.teaching | where: "archived", true | sort: 'year' | reverse %}
+{% for course in archived_courses %}
+- {{ course.semester }} — [{{ course.title }}]({{ course.url | relative_url }})
 {% endfor %}
 
-## Other Modules
-
-- Web programming, databases, C systems programming — intensive labs and workshops
-
-## Teaching Approach
-
-- **Project-based** — labs, group projects, case studies
-- **Industry-oriented** — design trade-offs, testing, observability
-- **Mentoring** — capstone projects and thesis supervision
-
----
-
-📧 [hungdn@ptit.edu.vn](mailto:hungdn@ptit.edu.vn)
+</details>

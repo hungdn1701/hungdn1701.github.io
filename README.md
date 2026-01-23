@@ -49,6 +49,22 @@ This repo is configured for GitHub Codespaces. Just open in Codespaces and run:
 └── tools/           # Dev scripts
 ```
 
+## Teaching
+
+### Add a new course
+
+1. Create `_teaching/course-name-vi.md` or `course-name-en.md`
+2. Set front matter: `title`, `credits`, `semester`, `lang`, `year`, `archived: false`
+3. Course appears automatically on Teaching page
+
+### Archive a course
+
+Set `archived: true` in front matter → moves to Archive section
+
+### Upload materials
+
+Add PDFs to `assets/materials/<course-name>-vi/` or `-en/`
+
 ## License
 
 Content © Hung Dang. Theme licensed under [MIT](LICENSE).
