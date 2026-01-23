@@ -30,12 +30,12 @@ Upon completion of this course, students will be able to:
 
 ### Part 1: Theory (Weeks 1–4)
 
-| Week | Topic                              | Materials                                                |
-| ---- | ---------------------------------- | -------------------------------------------------------- |
-| 1    | Course Introduction                | [Slides 01](/assets/materials/sod-en/slides/week-01.pdf) |
-| 2    | Service-Oriented Architecture      | [Slides 02](/assets/materials/sod-en/slides/week-02.pdf) |
-| 3    | Service Analysis and Decomposition | [Slides 03](/assets/materials/sod-en/slides/week-03.pdf) |
-| 4    | API Design and Communication       | [Slides 04](/assets/materials/sod-en/slides/week-04.pdf) |
+| Week | Topic                              |
+| ---- | ---------------------------------- |
+| 1    | Course Introduction                |
+| 2    | Service-Oriented Architecture      |
+| 3    | Service Analysis and Decomposition |
+| 4    | API Design and Communication       |
 
 *Microservices Design Patterns is self-study material (see Reference #2)*
 
@@ -43,13 +43,13 @@ Upon completion of this course, students will be able to:
 
 2–3 groups present each session:
 
-| Week | Research Topic                     | Materials                                                |
-| ---- | ---------------------------------- | -------------------------------------------------------- |
-| 5    | API Gateway, Service Discovery     | [Topic 05](/assets/materials/sod-en/topics/topic-05.pdf) |
-| 6    | Communication Patterns             | [Topic 06](/assets/materials/sod-en/topics/topic-06.pdf) |
-| 7    | Transactional Messaging, Saga      | [Topic 07](/assets/materials/sod-en/topics/topic-07.pdf) |
-| 8    | Circuit Breaker, Reliability       | [Topic 08](/assets/materials/sod-en/topics/topic-08.pdf) |
-| 9    | Observability, Distributed Tracing | [Topic 09](/assets/materials/sod-en/topics/topic-09.pdf) |
+| Week | Research Topic                     |
+| ---- | ---------------------------------- |
+| 5    | API Gateway, Service Discovery     |
+| 6    | Communication Patterns             |
+| 7    | Transactional Messaging, Saga      |
+| 8    | Circuit Breaker, Reliability       |
+| 9    | Observability, Distributed Tracing |
 
 ### Part 3: Project (Weeks 10–16)
 
@@ -71,9 +71,9 @@ Upon completion of this course, students will be able to:
 
 ## References
 
-1. Erl, T. (2016). *Service-Oriented Architecture: Analysis & Design for Services and Microservices* (2nd ed.). Prentice Hall. [Download](/assets/materials/sod-en/books/book-01.pdf)
-2. Richardson, C. (2018). *Microservices Patterns: With Examples in Java*. Manning. [1st Ed.](/assets/materials/sod-en/books/book-02a.pdf) \| [2nd Ed.](/assets/materials/sod-en/books/book-02b.pdf)
-3. Mitra, R., & Nadareishvili, I. (2020). *Microservices: Up and Running*. O'Reilly. [Download](/assets/materials/sod-en/books/book-03.pdf)
+1. Erl, T. (2016). *Service-Oriented Architecture: Analysis & Design for Services and Microservices* (2nd ed.). Prentice Hall.
+2. Richardson, C. (2018). *Microservices Patterns: With Examples in Java*. Manning.
+3. Mitra, R., & Nadareishvili, I. (2020). *Microservices: Up and Running*. O'Reilly.
 
 ## Concurrent Courses and Career Orientation
 

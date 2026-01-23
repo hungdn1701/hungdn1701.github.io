@@ -30,12 +30,12 @@ Sau khi hoàn thành môn học, sinh viên có khả năng:
 
 ### Phần 1: Lý thuyết (Tuần 1–4)
 
-| Tuần | Chủ đề                       | Tài liệu                                                 |
-| ---- | ---------------------------- | -------------------------------------------------------- |
-| 1    | Giới thiệu môn học           | [Slides 01](/assets/materials/sod-vi/slides/week-01.pdf) |
-| 2    | Kiến trúc hướng dịch vụ      | [Slides 02](/assets/materials/sod-vi/slides/week-02.pdf) |
-| 3    | Phân tích và phân rã dịch vụ | [Slides 03](/assets/materials/sod-vi/slides/week-03.pdf) |
-| 4    | Thiết kế API và giao tiếp    | [Slides 04](/assets/materials/sod-vi/slides/week-04.pdf) |
+| Tuần | Chủ đề                       |
+| ---- | ---------------------------- |
+| 1    | Giới thiệu môn học           |
+| 2    | Kiến trúc hướng dịch vụ      |
+| 3    | Phân tích và phân rã dịch vụ |
+| 4    | Thiết kế API và giao tiếp    |
 
 *Mẫu thiết kế Microservices là học liệu tự nghiên cứu (xem Tài liệu #2)*
 
@@ -43,13 +43,13 @@ Sau khi hoàn thành môn học, sinh viên có khả năng:
 
 Mỗi buổi 2–3 nhóm trình bày:
 
-| Tuần | Chủ đề nghiên cứu                  | Tài liệu                                                 |
-| ---- | ---------------------------------- | -------------------------------------------------------- |
-| 5    | API Gateway, Service Discovery     | [Topic 05](/assets/materials/sod-vi/topics/topic-05.pdf) |
-| 6    | Communication Patterns             | [Topic 06](/assets/materials/sod-vi/topics/topic-06.pdf) |
-| 7    | Transactional Messaging, Saga      | [Topic 07](/assets/materials/sod-vi/topics/topic-07.pdf) |
-| 8    | Circuit Breaker, Reliability       | [Topic 08](/assets/materials/sod-vi/topics/topic-08.pdf) |
-| 9    | Observability, Distributed Tracing | [Topic 09](/assets/materials/sod-vi/topics/topic-09.pdf) |
+| Tuần | Chủ đề nghiên cứu                  |
+| ---- | ---------------------------------- |
+| 5    | API Gateway, Service Discovery     |
+| 6    | Communication Patterns             |
+| 7    | Transactional Messaging, Saga      |
+| 8    | Circuit Breaker, Reliability       |
+| 9    | Observability, Distributed Tracing |
 
 ### Phần 3: Dự án (Tuần 10–16)
 
@@ -70,9 +70,9 @@ Mỗi buổi 2–3 nhóm trình bày:
 
 ## Tài liệu tham khảo
 
-1. Erl, T. (2016). *Service-Oriented Architecture: Analysis & Design for Services and Microservices* (2nd ed.). Prentice Hall. [Tải](/assets/materials/sod-vi/books/book-01.pdf)
-2. Richardson, C. *Microservices Patterns: With Examples in Java*. Manning. [1st Ed.](/assets/materials/sod-vi/books/book-02a.pdf) \| [2nd Ed.](/assets/materials/sod-vi/books/book-02b.pdf)
-3. Mitra, R., & Nadareishvili, I. (2020). *Microservices: Up and Running*. O'Reilly. [Tải](/assets/materials/sod-vi/books/book-03.pdf)
+1. Erl, T. (2016). *Service-Oriented Architecture: Analysis & Design for Services and Microservices* (2nd ed.). Prentice Hall.
+2. Richardson, C. *Microservices Patterns: With Examples in Java*. Manning.
+3. Mitra, R., & Nadareishvili, I. (2020). *Microservices: Up and Running*. O'Reilly.
 
 ## Môn học cùng kỳ và Định hướng nghề nghiệp
 
