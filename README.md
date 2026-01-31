@@ -63,7 +63,79 @@ Set `archived: true` in front matter → moves to Archive section
 
 ### Upload materials
 
-Add PDFs to `assets/materials/<course-name>-vi/` or `-en/`
+Materials are organized by **phase** for each course. Add files to:
+
+```
+assets/materials/<course-name>-<lang>/
+├── slides/
+│   ├── week-01.pdf
+│   ├── week-02.pdf
+│   └── ...
+└── resources/
+    ├── week-01.zip    (labs, code samples, etc.)
+    ├── week-02.zip
+    └── ...
+```
+
+**Example for Service-Oriented Development:**
+```
+assets/materials/service-oriented-development-en/
+├── slides/
+│   ├── week-01.pdf  (Part 1: Theory)
+│   ├── week-02.pdf
+│   ├── week-03.pdf
+│   ├── week-04.pdf
+│   ├── week-05.pdf  (Part 2: Seminar)
+│   ├── week-06.pdf
+│   ├── week-07.pdf
+│   ├── week-08.pdf
+│   └── week-09.pdf
+└── resources/
+    ├── week-10.zip  (Part 3: Project)
+    ├── week-11.zip
+    ├── week-13.zip
+    ├── week-15.zip
+    └── week-16.zip
+```
+
+**How to add multiple slides/resources per week**: Edit the course markdown file and use `<br>` to separate links in the same cell:
+
+```markdown
+[Slides A - Introduction](/path/to/week-01-a.pdf)<br>[Slides B - Advanced](/path/to/week-01-b.pdf)
+```
+
+### Archiving and updating courses
+
+When a semester ends, archive the course to preserve history:
+
+1. **Archive the current course**:
+   ```bash
+   # In _teaching/service-oriented-development-vi.md
+   archived: true
+   ```
+
+2. **Create a new course for next year**:
+   ```bash
+   # Clone and modify the archived version
+   cp _teaching/service-oriented-development-vi.md _teaching/service-oriented-development-vi-2027.md
+   
+   # Edit the new file:
+   # - Update semester: "Semester II, 2026–2027"
+   # - Update year: 2027
+   # - Update archived: false
+   # - Clear or update material links as needed
+   ```
+
+3. **Copy and update materials**:
+   ```bash
+   # Copy old materials for reference
+   cp -r assets/materials/service-oriented-development-vi assets/materials/service-oriented-development-vi-2026
+   
+   # Update the current course materials
+   # assets/materials/service-oriented-development-vi/
+   ```
+
+This preserves all historical data while keeping the current course up-to-date.
 
 ## License
 
