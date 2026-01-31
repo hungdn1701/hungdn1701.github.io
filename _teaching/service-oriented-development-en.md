@@ -98,20 +98,6 @@ Upon completion of this course, students will be able to:
 ### Week 9 — Observability & Tracing
 - *(Slides will be updated soon)*
 
-### Week 10 — Project Kickoff
-- *(Project resources will be updated soon)*
-
-### Week 11–12 — Development & Review 1
-- *(Project resources will be updated soon)*
-
-### Week 13–14 — Development & Review 2
-- *(Project resources will be updated soon)*
-
-### Week 15 — Review 3 & Finalization
-- *(Project resources will be updated soon)*
-
-### Week 16 — Project Defense
-- *(Project resources will be updated soon)*
 
 ## Assessment
 
@@ -135,11 +121,4 @@ Upon completion of this course, students will be able to:
 - **Seminar Topics & Resources**: *(Link to be provided)*
 - **Project Collaboration**: *(Link to be provided)*
 
-## Concurrent Courses and Career Orientation
 
-| Course                              | Position                  |
-| ----------------------------------- | ------------------------- |
-| Requirements Analysis               | Business Analyst          |
-| Service-Oriented Development        | Backend / DevOps Engineer |
-| Software Quality Assurance          | QA/QC Engineer            |
-| Software Architecture & Development | System Architect          |

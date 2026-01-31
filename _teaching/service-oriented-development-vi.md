@@ -97,17 +97,6 @@ Sau khi hoàn thành môn học, sinh viên có khả năng:
 ### Tuần 9 — Observability & Tracing
 - *(Slide sẽ cập nhật sau)*
 
-### Tuần 10 — Khởi động dự án
-- *(Tài liệu dự án sẽ cập nhật sau)*
-
-### Tuần 11–13 — Phát triển & Review
-- *(Tài liệu dự án sẽ cập nhật sau)*
-
-### Tuần 14–15 — Hoàn thiện & Bảo vệ
-- *(Tài liệu dự án sẽ cập nhật sau)*
-
-### Tuần 16 — Dự phòng
-- *(Tài liệu dự án sẽ cập nhật sau)*
 
 ## Đánh giá
 
@@ -131,11 +120,3 @@ Sau khi hoàn thành môn học, sinh viên có khả năng:
 - **Chủ đề Seminar & Tài liệu**: *(Link sẽ cập nhật sau)*
 - **Hợp tác dự án**: *(Link sẽ cập nhật sau)*
 
-## Môn học cùng kỳ và Định hướng nghề nghiệp
-
-| Môn học                           | Vị trí                    |
-| --------------------------------- | ------------------------- |
-| Phân tích yêu cầu                 | Business Analyst          |
-| Phát triển phần mềm hướng dịch vụ | Backend / DevOps Engineer |
-| Đảm bảo chất lượng phần mềm       | QA/QC Engineer            |
-| Kiến trúc và phát triển phần mềm  | System Architect          |
